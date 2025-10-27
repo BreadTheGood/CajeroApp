@@ -3,8 +3,32 @@
   "WorkspaceRootPath": "C:\\Users\\HP\\BreadTheGood\\CajeroApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7A79126B-4EEE-4C55-AE4C-56A1C1E76754}|CajeroApp\\CajeroApp.csproj|c:\\users\\hp\\breadthegood\\cajeroapp\\cajeroapp\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{7A79126B-4EEE-4C55-AE4C-56A1C1E76754}|CajeroApp\\CajeroApp.csproj|solutionrelative:cajeroapp\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{7A79126B-4EEE-4C55-AE4C-56A1C1E76754}|CajeroApp\\CajeroApp.csproj|c:\\users\\hp\\breadthegood\\cajeroapp\\cajeroapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A79126B-4EEE-4C55-AE4C-56A1C1E76754}|CajeroApp\\CajeroApp.csproj|solutionrelative:cajeroapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A79126B-4EEE-4C55-AE4C-56A1C1E76754}|CajeroApp\\CapaInterfaz.csproj|c:\\users\\hp\\breadthegood\\cajeroapp\\cajeroapp\\ventanalogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{7A79126B-4EEE-4C55-AE4C-56A1C1E76754}|CajeroApp\\CapaInterfaz.csproj|solutionrelative:cajeroapp\\ventanalogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A79126B-4EEE-4C55-AE4C-56A1C1E76754}|CajeroApp\\CapaInterfaz.csproj|c:\\users\\hp\\breadthegood\\cajeroapp\\cajeroapp\\ventanaprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{7A79126B-4EEE-4C55-AE4C-56A1C1E76754}|CajeroApp\\CapaInterfaz.csproj|solutionrelative:cajeroapp\\ventanaprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A79126B-4EEE-4C55-AE4C-56A1C1E76754}|CajeroApp\\CapaInterfaz.csproj|c:\\users\\hp\\breadthegood\\cajeroapp\\cajeroapp\\ventanaprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A79126B-4EEE-4C55-AE4C-56A1C1E76754}|CajeroApp\\CapaInterfaz.csproj|solutionrelative:cajeroapp\\ventanaprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A79126B-4EEE-4C55-AE4C-56A1C1E76754}|CajeroApp\\CapaInterfaz.csproj|c:\\users\\hp\\breadthegood\\cajeroapp\\cajeroapp\\ventanalogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A79126B-4EEE-4C55-AE4C-56A1C1E76754}|CajeroApp\\CapaInterfaz.csproj|solutionrelative:cajeroapp\\ventanalogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A79126B-4EEE-4C55-AE4C-56A1C1E76754}|CajeroApp\\CapaInterfaz.csproj|c:\\users\\hp\\breadthegood\\cajeroapp\\cajeroapp\\ventanalogin.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A79126B-4EEE-4C55-AE4C-56A1C1E76754}|CajeroApp\\CapaInterfaz.csproj|solutionrelative:cajeroapp\\ventanalogin.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{910AAC75-BF43-40FD-8EE6-C3453F37F37C}|CapaInterfaz\\CapaConexion.csproj|c:\\users\\hp\\breadthegood\\cajeroapp\\capainterfaz\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{910AAC75-BF43-40FD-8EE6-C3453F37F37C}|CapaInterfaz\\CapaConexion.csproj|solutionrelative:capainterfaz\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,7 +38,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 553,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -22,15 +46,102 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Form1.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\HP\\BreadTheGood\\CajeroApp\\CajeroApp\\Form1.cs",
-              "RelativeDocumentMoniker": "CajeroApp\\Form1.cs",
-              "ToolTip": "C:\\Users\\HP\\BreadTheGood\\CajeroApp\\CajeroApp\\Form1.cs [Dise\u00F1o]",
-              "RelativeToolTip": "CajeroApp\\Form1.cs [Dise\u00F1o]",
+              "DocumentIndex": 3,
+              "Title": "VentanaPrincipal.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\BreadTheGood\\CajeroApp\\CajeroApp\\VentanaPrincipal.cs",
+              "RelativeDocumentMoniker": "CajeroApp\\VentanaPrincipal.cs",
+              "ToolTip": "C:\\Users\\HP\\BreadTheGood\\CajeroApp\\CajeroApp\\VentanaPrincipal.cs",
+              "RelativeToolTip": "CajeroApp\\VentanaPrincipal.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-26T21:43:46.541Z",
+              "WhenOpened": "2025-10-27T04:57:40.866Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "VentanaPrincipal.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\HP\\BreadTheGood\\CajeroApp\\CajeroApp\\VentanaPrincipal.cs",
+              "RelativeDocumentMoniker": "CajeroApp\\VentanaPrincipal.cs",
+              "ToolTip": "C:\\Users\\HP\\BreadTheGood\\CajeroApp\\CajeroApp\\VentanaPrincipal.cs [Dise\u00F1o]",
+              "RelativeToolTip": "CajeroApp\\VentanaPrincipal.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-27T04:27:05.624Z",
               "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "VentanaLogin.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\BreadTheGood\\CajeroApp\\CajeroApp\\VentanaLogin.Designer.cs",
+              "RelativeDocumentMoniker": "CajeroApp\\VentanaLogin.Designer.cs",
+              "ToolTip": "C:\\Users\\HP\\BreadTheGood\\CajeroApp\\CajeroApp\\VentanaLogin.Designer.cs",
+              "RelativeToolTip": "CajeroApp\\VentanaLogin.Designer.cs",
+              "ViewState": "AgIAAEUAAAAAAAAAAAAewFgAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-27T03:00:18.82Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "VentanaLogin.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\BreadTheGood\\CajeroApp\\CajeroApp\\VentanaLogin.cs",
+              "RelativeDocumentMoniker": "CajeroApp\\VentanaLogin.cs",
+              "ToolTip": "C:\\Users\\HP\\BreadTheGood\\CajeroApp\\CajeroApp\\VentanaLogin.cs",
+              "RelativeToolTip": "CajeroApp\\VentanaLogin.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEwAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-27T02:32:50.336Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "VentanaLogin.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\HP\\BreadTheGood\\CajeroApp\\CajeroApp\\VentanaLogin.cs",
+              "RelativeDocumentMoniker": "CajeroApp\\VentanaLogin.cs",
+              "ToolTip": "C:\\Users\\HP\\BreadTheGood\\CajeroApp\\CajeroApp\\VentanaLogin.cs [Dise\u00F1o]",
+              "RelativeToolTip": "CajeroApp\\VentanaLogin.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-26T22:16:49.991Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\BreadTheGood\\CajeroApp\\CajeroApp\\Program.cs",
+              "RelativeDocumentMoniker": "CajeroApp\\Program.cs",
+              "ToolTip": "C:\\Users\\HP\\BreadTheGood\\CajeroApp\\CajeroApp\\Program.cs",
+              "RelativeToolTip": "CajeroApp\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-26T22:04:26.222Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Login.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\BreadTheGood\\CajeroApp\\CapaInterfaz\\Login.cs",
+              "RelativeDocumentMoniker": "CapaInterfaz\\Login.cs",
+              "ToolTip": "C:\\Users\\HP\\BreadTheGood\\CajeroApp\\CapaInterfaz\\Login.cs",
+              "RelativeToolTip": "CapaInterfaz\\Login.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-26T22:01:27.641Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 308,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
             }
           ]
         }

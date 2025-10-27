@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.14.36414.22 d17.14
+VisualStudioVersion = 17.14.36414.22
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CajeroApp", "CajeroApp\CajeroApp.csproj", "{7A79126B-4EEE-4C55-AE4C-56A1C1E76754}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CapaInterfaz", "CajeroApp\CapaInterfaz.csproj", "{7A79126B-4EEE-4C55-AE4C-56A1C1E76754}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CapaConexion", "CapaInterfaz\CapaConexion.csproj", "{910AAC75-BF43-40FD-8EE6-C3453F37F37C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{7A79126B-4EEE-4C55-AE4C-56A1C1E76754}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7A79126B-4EEE-4C55-AE4C-56A1C1E76754}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7A79126B-4EEE-4C55-AE4C-56A1C1E76754}.Release|Any CPU.Build.0 = Release|Any CPU
+		{910AAC75-BF43-40FD-8EE6-C3453F37F37C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{910AAC75-BF43-40FD-8EE6-C3453F37F37C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{910AAC75-BF43-40FD-8EE6-C3453F37F37C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{910AAC75-BF43-40FD-8EE6-C3453F37F37C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

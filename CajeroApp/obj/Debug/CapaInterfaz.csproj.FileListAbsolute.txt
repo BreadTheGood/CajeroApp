@@ -1,0 +1,12 @@
+C:\Users\HP\BreadTheGood\CajeroApp\CajeroApp\bin\Debug\CajeroApp.exe.config
+C:\Users\HP\BreadTheGood\CajeroApp\CajeroApp\bin\Debug\CajeroApp.exe
+C:\Users\HP\BreadTheGood\CajeroApp\CajeroApp\bin\Debug\CajeroApp.pdb
+C:\Users\HP\BreadTheGood\CajeroApp\CajeroApp\obj\Debug\CapaInterfaz.csproj.AssemblyReference.cache
+C:\Users\HP\BreadTheGood\CajeroApp\CajeroApp\obj\Debug\CajeroApp.Properties.Resources.resources
+C:\Users\HP\BreadTheGood\CajeroApp\CajeroApp\obj\Debug\CapaInterfaz.csproj.GenerateResource.cache
+C:\Users\HP\BreadTheGood\CajeroApp\CajeroApp\obj\Debug\CapaInterfaz.csproj.CoreCompileInputs.cache
+C:\Users\HP\BreadTheGood\CajeroApp\CajeroApp\obj\Debug\CajeroApp.exe
+C:\Users\HP\BreadTheGood\CajeroApp\CajeroApp\obj\Debug\CajeroApp.pdb
+C:\Users\HP\BreadTheGood\CajeroApp\CajeroApp\obj\Debug\CajeroApp.exe.config
+C:\Users\HP\BreadTheGood\CajeroApp\CajeroApp\obj\Debug\CajeroApp.VentanaLogin.resources
+C:\Users\HP\BreadTheGood\CajeroApp\CajeroApp\obj\Debug\CajeroApp.VentanaPrincipal.resources
