@@ -15,7 +15,7 @@ namespace CajeroApp
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             //Application.Run(new VentanaPrincipal());
-            Application.Run(new VentanaLogin());
+            Application.Run(new VentanaAdministrador());
         }
     }
 }
