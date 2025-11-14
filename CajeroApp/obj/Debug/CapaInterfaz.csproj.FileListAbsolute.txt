@@ -9,5 +9,4 @@ C:\Users\HP\BreadTheGood\CajeroApp\CajeroApp\obj\Debug\CajeroApp.exe
 C:\Users\HP\BreadTheGood\CajeroApp\CajeroApp\obj\Debug\CajeroApp.pdb
 C:\Users\HP\BreadTheGood\CajeroApp\CajeroApp\obj\Debug\CajeroApp.exe.config
 C:\Users\HP\BreadTheGood\CajeroApp\CajeroApp\obj\Debug\CajeroApp.VentanaLogin.resources
-C:\Users\HP\BreadTheGood\CajeroApp\CajeroApp\obj\Debug\CajeroApp.VentanaAdministrador.resources
-C:\Users\HP\BreadTheGood\CajeroApp\CajeroApp\obj\Debug\CajeroApp.VentanaRegistro.resources
+C:\Users\HP\BreadTheGood\CajeroApp\CajeroApp\obj\Debug\CajeroApp.VentanaPrincipal.resources

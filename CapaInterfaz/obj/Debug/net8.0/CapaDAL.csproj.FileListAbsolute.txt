@@ -1,0 +1,13 @@
+C:\Users\HP\BreadTheGood\CajeroApp\CapaInterfaz\bin\Debug\net8.0\CapaDAL.deps.json
+C:\Users\HP\BreadTheGood\CajeroApp\CapaInterfaz\bin\Debug\net8.0\CapaDAL.dll
+C:\Users\HP\BreadTheGood\CajeroApp\CapaInterfaz\bin\Debug\net8.0\CapaDAL.pdb
+C:\Users\HP\BreadTheGood\CajeroApp\CapaInterfaz\obj\Debug\net8.0\CapaDAL.csproj.AssemblyReference.cache
+C:\Users\HP\BreadTheGood\CajeroApp\CapaInterfaz\obj\Debug\net8.0\CapaDAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HP\BreadTheGood\CajeroApp\CapaInterfaz\obj\Debug\net8.0\CapaDAL.AssemblyInfoInputs.cache
+C:\Users\HP\BreadTheGood\CajeroApp\CapaInterfaz\obj\Debug\net8.0\CapaDAL.AssemblyInfo.cs
+C:\Users\HP\BreadTheGood\CajeroApp\CapaInterfaz\obj\Debug\net8.0\CapaDAL.csproj.CoreCompileInputs.cache
+C:\Users\HP\BreadTheGood\CajeroApp\CapaInterfaz\obj\Debug\net8.0\CapaDAL.sourcelink.json
+C:\Users\HP\BreadTheGood\CajeroApp\CapaInterfaz\obj\Debug\net8.0\CapaDAL.dll
+C:\Users\HP\BreadTheGood\CajeroApp\CapaInterfaz\obj\Debug\net8.0\refint\CapaDAL.dll
+C:\Users\HP\BreadTheGood\CajeroApp\CapaInterfaz\obj\Debug\net8.0\CapaDAL.pdb
+C:\Users\HP\BreadTheGood\CajeroApp\CapaInterfaz\obj\Debug\net8.0\ref\CapaDAL.dll

@@ -1,0 +1,11 @@
+C:\Users\HP\BreadTheGood\CajeroApp\CapaBLL\bin\Debug\CapaBLL.dll
+C:\Users\HP\BreadTheGood\CajeroApp\CapaBLL\bin\Debug\CapaBLL.pdb
+C:\Users\HP\BreadTheGood\CajeroApp\CapaBLL\bin\Debug\C2_DAL.dll
+C:\Users\HP\BreadTheGood\CajeroApp\CapaBLL\bin\Debug\CapaMOD.dll
+C:\Users\HP\BreadTheGood\CajeroApp\CapaBLL\bin\Debug\C2_DAL.pdb
+C:\Users\HP\BreadTheGood\CajeroApp\CapaBLL\bin\Debug\CapaMOD.pdb
+C:\Users\HP\BreadTheGood\CajeroApp\CapaBLL\obj\Debug\CapaBLL.csproj.AssemblyReference.cache
+C:\Users\HP\BreadTheGood\CajeroApp\CapaBLL\obj\Debug\CapaBLL.csproj.CoreCompileInputs.cache
+C:\Users\HP\BreadTheGood\CajeroApp\CapaBLL\obj\Debug\CapaBLL.csproj.Up2Date
+C:\Users\HP\BreadTheGood\CajeroApp\CapaBLL\obj\Debug\CapaBLL.dll
+C:\Users\HP\BreadTheGood\CajeroApp\CapaBLL\obj\Debug\CapaBLL.pdb

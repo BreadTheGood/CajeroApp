@@ -1,0 +1,6 @@
+C:\Users\HP\BreadTheGood\CajeroApp\CapaMOD\bin\Debug\CapaMOD.dll
+C:\Users\HP\BreadTheGood\CajeroApp\CapaMOD\bin\Debug\CapaMOD.pdb
+C:\Users\HP\BreadTheGood\CajeroApp\CapaMOD\obj\Debug\CapaMOD.csproj.AssemblyReference.cache
+C:\Users\HP\BreadTheGood\CajeroApp\CapaMOD\obj\Debug\CapaMOD.csproj.CoreCompileInputs.cache
+C:\Users\HP\BreadTheGood\CajeroApp\CapaMOD\obj\Debug\CapaMOD.dll
+C:\Users\HP\BreadTheGood\CajeroApp\CapaMOD\obj\Debug\CapaMOD.pdb

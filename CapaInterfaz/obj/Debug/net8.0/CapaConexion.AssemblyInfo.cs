@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CapaConexion")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b5a9f828d912baa18afc990f499ca5e5ed0c0226")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b83fbdfe852f78b2faa1df30ba8d569ea495177f")]
 [assembly: System.Reflection.AssemblyProductAttribute("CapaConexion")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CapaConexion")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
