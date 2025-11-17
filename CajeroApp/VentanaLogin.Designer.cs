@@ -33,7 +33,6 @@
             this.BANNER = new System.Windows.Forms.Label();
             this.comboBox_Login = new System.Windows.Forms.ComboBox();
             this.button_EXIT_LOGIN = new System.Windows.Forms.Button();
-            this.checkBox_DEBUG = new System.Windows.Forms.CheckBox();
             this.pictureBox_Login = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox_Login)).BeginInit();
             this.SuspendLayout();
@@ -105,18 +104,6 @@
             this.button_EXIT_LOGIN.UseVisualStyleBackColor = false;
             this.button_EXIT_LOGIN.Click += new System.EventHandler(this.button_EXIT_LOGIN_Click);
             // 
-            // checkBox_DEBUG
-            // 
-            this.checkBox_DEBUG.AutoSize = true;
-            this.checkBox_DEBUG.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.checkBox_DEBUG.ForeColor = System.Drawing.Color.Black;
-            this.checkBox_DEBUG.Location = new System.Drawing.Point(151, 352);
-            this.checkBox_DEBUG.Name = "checkBox_DEBUG";
-            this.checkBox_DEBUG.Size = new System.Drawing.Size(100, 19);
-            this.checkBox_DEBUG.TabIndex = 8;
-            this.checkBox_DEBUG.Text = "Debug mode";
-            this.checkBox_DEBUG.UseVisualStyleBackColor = false;
-            // 
             // pictureBox_Login
             // 
             this.pictureBox_Login.BackColor = System.Drawing.Color.Transparent;
@@ -135,7 +122,6 @@
             this.BackColor = System.Drawing.Color.WhiteSmoke;
             this.ClientSize = new System.Drawing.Size(398, 398);
             this.ControlBox = false;
-            this.Controls.Add(this.checkBox_DEBUG);
             this.Controls.Add(this.button_EXIT_LOGIN);
             this.Controls.Add(this.comboBox_Login);
             this.Controls.Add(this.pictureBox_Login);
@@ -149,7 +135,6 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox_Login)).EndInit();
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
@@ -161,7 +146,6 @@
         private System.Windows.Forms.PictureBox pictureBox_Login;
         private System.Windows.Forms.ComboBox comboBox_Login;
         private System.Windows.Forms.Button button_EXIT_LOGIN;
-        private System.Windows.Forms.CheckBox checkBox_DEBUG;
     }
 }
 

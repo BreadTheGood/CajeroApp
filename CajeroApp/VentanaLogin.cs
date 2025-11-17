@@ -19,15 +19,7 @@ namespace CajeroApp
         //Botón para iniciar sesión
         private void BUTTON_lOGIN_Click(object sender, EventArgs e)
         {
-            // Si no hay usuario ni contrasena y no está activado el modo DEBUG, mostrar aviso
-            if (checkBox_DEBUG.Checked)
-            {
-
-                VentanaPrincipal ventanaPrincipal = new VentanaPrincipal("Debug");
-                ventanaPrincipal.Show();
-                this.Hide();
-            }
-            else if (comboBox_Login.SelectedItem != null)
+            if (comboBox_Login.SelectedItem != null)
             {
 
                 if (comboBox_Login.Text == "Administrador")

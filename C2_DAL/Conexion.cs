@@ -65,11 +65,15 @@ namespace CapaDAL
 
             conexion.ConnectionString = cadenaConexion;
             comando.CommandType = System.Data.CommandType.Text;
-            comando.CommandText = "delete from Productos where Id= " + eliminado.Id;
+            comando.CommandText = "DELETE FROM Productos WHERE Id = @id";
+
+            comando.Parameters.AddWithValue("@id", eliminado.Id);
             comando.Connection = conexion;
 
             conexion.Open();
             comando.ExecuteNonQuery();
+
+            comando.Parameters.Clear();
             conexion.Close();
         }
 
@@ -78,7 +82,7 @@ namespace CapaDAL
             conexion.ConnectionString = cadenaConexion;
             comando.CommandType = System.Data.CommandType.Text;
 
-            comando.CommandText = "update Productos set Nombre=@nombre,Precio=@marca Where Id=" + modificado.Id;
+            comando.CommandText = "update Productos set Nombre=@nombre,Precio=@precio Where Id=" + modificado.Id;
             comando.Parameters.AddWithValue("@nombre", modificado.Nombre);
             comando.Parameters.AddWithValue("@precio", modificado.Precio);
 
@@ -263,7 +267,7 @@ namespace CapaDAL
                 aux.Id = lector.GetInt32(0);
                 aux.Nombre = lector.GetString(1);
                 aux.Cargo = lector.GetString(2);
-                aux.Salario = lector.GetString(3);
+                aux.Salario = lector.GetInt32(3);
 
 
                 listaEmpleado.Add(aux);
@@ -346,7 +350,7 @@ namespace CapaDAL
                 aux.Id = lector.GetInt32(0);
                 aux.Nombre = lector.GetString(1);
                 aux.Cargo = lector.GetString(2);
-                aux.Salario = lector.GetString(3);
+                aux.Salario = lector.GetInt32(3);
 
                 listaEmpleado.Add(aux);
             }

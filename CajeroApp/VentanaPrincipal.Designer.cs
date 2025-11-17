@@ -38,9 +38,9 @@
             this.button_VENTA = new System.Windows.Forms.Button();
             this.button_PROVEEDORES = new System.Windows.Forms.Button();
             this.dgv_ELEMENTOS = new System.Windows.Forms.DataGridView();
-            this.textBox_CANTIDAD = new System.Windows.Forms.TextBox();
+            this.textBox_DATO2 = new System.Windows.Forms.TextBox();
             this.comboBox_PRODUCTOS = new System.Windows.Forms.ComboBox();
-            this.textBox_PRECIO = new System.Windows.Forms.TextBox();
+            this.textBox_DATO1 = new System.Windows.Forms.TextBox();
             this.button_AGREGAR = new System.Windows.Forms.Button();
             this.textBox_TOTAL = new System.Windows.Forms.TextBox();
             this.label_TOTAL = new System.Windows.Forms.Label();
@@ -52,6 +52,7 @@
             this.button_SALIR_VOLVER = new System.Windows.Forms.Button();
             this.textBox_BUSCAR = new System.Windows.Forms.TextBox();
             this.textBox_NOMBRE = new System.Windows.Forms.TextBox();
+            this.button_MODIFICAR = new System.Windows.Forms.Button();
             this.ventanaPrincipalBindingSource = new System.Windows.Forms.BindingSource(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.dgv_ELEMENTOS)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.ventanaPrincipalBindingSource)).BeginInit();
@@ -156,22 +157,24 @@
             this.dgv_ELEMENTOS.TabIndex = 12;
             this.dgv_ELEMENTOS.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgv_ELEMENTOS_CellClick);
             // 
-            // textBox_CANTIDAD
+            // textBox_DATO2
             // 
-            this.textBox_CANTIDAD.BackColor = System.Drawing.SystemColors.Menu;
-            this.textBox_CANTIDAD.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox_CANTIDAD.Font = new System.Drawing.Font("Candara", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox_CANTIDAD.ForeColor = System.Drawing.Color.Silver;
-            this.textBox_CANTIDAD.Location = new System.Drawing.Point(812, 158);
-            this.textBox_CANTIDAD.Multiline = true;
-            this.textBox_CANTIDAD.Name = "textBox_CANTIDAD";
-            this.textBox_CANTIDAD.Size = new System.Drawing.Size(168, 22);
-            this.textBox_CANTIDAD.TabIndex = 14;
-            this.textBox_CANTIDAD.Text = "CANTIDAD";
-            this.textBox_CANTIDAD.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.textBox_CANTIDAD.WordWrap = false;
-            this.textBox_CANTIDAD.Enter += new System.EventHandler(this.textBox_CANTIDAD_Enter);
-            this.textBox_CANTIDAD.Leave += new System.EventHandler(this.textBox_CANTIDAD_Leave);
+            this.textBox_DATO2.BackColor = System.Drawing.SystemColors.Menu;
+            this.textBox_DATO2.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox_DATO2.Font = new System.Drawing.Font("Candara", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox_DATO2.ForeColor = System.Drawing.Color.Silver;
+            this.textBox_DATO2.Location = new System.Drawing.Point(812, 158);
+            this.textBox_DATO2.Multiline = true;
+            this.textBox_DATO2.Name = "textBox_DATO2";
+            this.textBox_DATO2.Size = new System.Drawing.Size(168, 22);
+            this.textBox_DATO2.TabIndex = 14;
+            this.textBox_DATO2.Text = "CANTIDAD";
+            this.textBox_DATO2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.textBox_DATO2.WordWrap = false;
+            this.textBox_DATO2.Click += new System.EventHandler(this.textBox_DATO2_Enter);
+            this.textBox_DATO2.Enter += new System.EventHandler(this.textBox_DATO2_Enter);
+            this.textBox_DATO2.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBox_DATO2_KeyPress);
+            this.textBox_DATO2.Leave += new System.EventHandler(this.textBox_DATO2_Leave);
             // 
             // comboBox_PRODUCTOS
             // 
@@ -186,23 +189,25 @@
             this.comboBox_PRODUCTOS.TabIndex = 18;
             this.comboBox_PRODUCTOS.SelectedIndexChanged += new System.EventHandler(this.comboBox_PRODUCTOS_SelectedIndexChanged);
             // 
-            // textBox_PRECIO
+            // textBox_DATO1
             // 
-            this.textBox_PRECIO.BackColor = System.Drawing.SystemColors.Menu;
-            this.textBox_PRECIO.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox_PRECIO.Enabled = false;
-            this.textBox_PRECIO.Font = new System.Drawing.Font("Candara", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox_PRECIO.ForeColor = System.Drawing.Color.Silver;
-            this.textBox_PRECIO.Location = new System.Drawing.Point(816, 118);
-            this.textBox_PRECIO.Multiline = true;
-            this.textBox_PRECIO.Name = "textBox_PRECIO";
-            this.textBox_PRECIO.Size = new System.Drawing.Size(154, 22);
-            this.textBox_PRECIO.TabIndex = 19;
-            this.textBox_PRECIO.Text = "PRECIO";
-            this.textBox_PRECIO.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.textBox_PRECIO.WordWrap = false;
-            this.textBox_PRECIO.Enter += new System.EventHandler(this.textBox_PRECIO_Enter);
-            this.textBox_PRECIO.Leave += new System.EventHandler(this.textBox_PRECIO_Leave);
+            this.textBox_DATO1.BackColor = System.Drawing.SystemColors.Menu;
+            this.textBox_DATO1.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox_DATO1.Enabled = false;
+            this.textBox_DATO1.Font = new System.Drawing.Font("Candara", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox_DATO1.ForeColor = System.Drawing.Color.Silver;
+            this.textBox_DATO1.Location = new System.Drawing.Point(816, 118);
+            this.textBox_DATO1.Multiline = true;
+            this.textBox_DATO1.Name = "textBox_DATO1";
+            this.textBox_DATO1.Size = new System.Drawing.Size(154, 22);
+            this.textBox_DATO1.TabIndex = 19;
+            this.textBox_DATO1.Text = "PRECIO";
+            this.textBox_DATO1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.textBox_DATO1.WordWrap = false;
+            this.textBox_DATO1.Click += new System.EventHandler(this.textBox_DATO1_Enter);
+            this.textBox_DATO1.Enter += new System.EventHandler(this.textBox_DATO1_Enter);
+            this.textBox_DATO1.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBox_DATO1_KeyPress);
+            this.textBox_DATO1.Leave += new System.EventHandler(this.textBox_DATO1_Leave);
             // 
             // button_AGREGAR
             // 
@@ -370,6 +375,22 @@
             this.textBox_NOMBRE.Enter += new System.EventHandler(this.textBox_NOMBRE_Enter);
             this.textBox_NOMBRE.Leave += new System.EventHandler(this.textBox_NOMBRE_Leave);
             // 
+            // button_MODIFICAR
+            // 
+            this.button_MODIFICAR.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(146)))), ((int)(((byte)(255)))));
+            this.button_MODIFICAR.FlatAppearance.BorderSize = 0;
+            this.button_MODIFICAR.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button_MODIFICAR.Font = new System.Drawing.Font("Candara", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button_MODIFICAR.ForeColor = System.Drawing.Color.White;
+            this.button_MODIFICAR.Location = new System.Drawing.Point(815, 298);
+            this.button_MODIFICAR.Name = "button_MODIFICAR";
+            this.button_MODIFICAR.Size = new System.Drawing.Size(155, 30);
+            this.button_MODIFICAR.TabIndex = 33;
+            this.button_MODIFICAR.Text = "MODIFICAR";
+            this.button_MODIFICAR.UseVisualStyleBackColor = false;
+            this.button_MODIFICAR.Visible = false;
+            this.button_MODIFICAR.Click += new System.EventHandler(this.button_MODIFICAR_Click);
+            // 
             // ventanaPrincipalBindingSource
             // 
             this.ventanaPrincipalBindingSource.DataSource = typeof(CajeroApp.VentanaPrincipal);
@@ -381,6 +402,7 @@
             this.BackColor = System.Drawing.Color.WhiteSmoke;
             this.ClientSize = new System.Drawing.Size(978, 498);
             this.ControlBox = false;
+            this.Controls.Add(this.button_MODIFICAR);
             this.Controls.Add(this.textBox_NOMBRE);
             this.Controls.Add(this.textBox_BUSCAR);
             this.Controls.Add(this.button_BUSCAR);
@@ -393,9 +415,9 @@
             this.Controls.Add(this.label_TOTAL);
             this.Controls.Add(this.textBox_TOTAL);
             this.Controls.Add(this.button_AGREGAR);
-            this.Controls.Add(this.textBox_PRECIO);
+            this.Controls.Add(this.textBox_DATO1);
             this.Controls.Add(this.comboBox_PRODUCTOS);
-            this.Controls.Add(this.textBox_CANTIDAD);
+            this.Controls.Add(this.textBox_DATO2);
             this.Controls.Add(this.dgv_ELEMENTOS);
             this.Controls.Add(this.button_PROVEEDORES);
             this.Controls.Add(this.button_VENTA);
@@ -420,8 +442,8 @@
         private System.Windows.Forms.Button button_VENTA;
         private System.Windows.Forms.Button button_PROVEEDORES;
         private System.Windows.Forms.DataGridView dgv_ELEMENTOS;
-        private System.Windows.Forms.TextBox textBox_CANTIDAD;
-        private System.Windows.Forms.TextBox textBox_PRECIO;
+        private System.Windows.Forms.TextBox textBox_DATO2;
+        private System.Windows.Forms.TextBox textBox_DATO1;
         private System.Windows.Forms.Button button_AGREGAR;
         private System.Windows.Forms.TextBox textBox_TOTAL;
         private System.Windows.Forms.Label label_TOTAL;
@@ -435,5 +457,6 @@
         private System.Windows.Forms.BindingSource ventanaPrincipalBindingSource;
         public System.Windows.Forms.ComboBox comboBox_PRODUCTOS;
         private System.Windows.Forms.TextBox textBox_NOMBRE;
+        private System.Windows.Forms.Button button_MODIFICAR;
     }
 }
