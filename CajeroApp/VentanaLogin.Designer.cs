@@ -82,9 +82,6 @@
             this.comboBox_Login.Font = new System.Drawing.Font("Candara", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.comboBox_Login.FormattingEnabled = true;
             this.comboBox_Login.IntegralHeight = false;
-            this.comboBox_Login.Items.AddRange(new object[] {
-            "Administrador",
-            "Empleado"});
             this.comboBox_Login.Location = new System.Drawing.Point(100, 200);
             this.comboBox_Login.Name = "comboBox_Login";
             this.comboBox_Login.RightToLeft = System.Windows.Forms.RightToLeft.No;

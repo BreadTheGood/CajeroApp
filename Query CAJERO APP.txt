@@ -1,0 +1,69 @@
+USE MASTER
+
+CREATE DATABASE CAJEROAPP_DB
+
+USE CAJEROAPP_DB
+
+CREATE TABLE [dbo].[Productos](
+	[Id] [int] IDENTITY(1,1) NOT NULL,
+	[Nombre] [nchar](20) NOT NULL,
+	[Precio] [int] NOT NULL
+ CONSTRAINT [PK_Producto] PRIMARY KEY CLUSTERED 
+(
+	[Id] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+
+insert into Productos values ( 'FACTURA', 1000)
+
+select * from Productos
+
+
+CREATE TABLE [dbo].[Proveedores](
+	[Id] [int] IDENTITY(1,1) NOT NULL,
+	[Nombre] [nchar](40) NOT NULL,
+	[Telefono] [nchar] (20) NOT NULL,
+	[Mail] [nchar] (30)NOT NULL
+ CONSTRAINT [PK_Proveedores] PRIMARY KEY CLUSTERED 
+(
+	[Id] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+
+insert into Proveedores values ( 'MOLINOS RIO DE LA PLATA', '110022334', 'MOLINOSLAPLATA@INFO.COM')
+
+select * from Proveedores
+
+
+CREATE TABLE [dbo].[Usuarios](
+	[Id] [int] IDENTITY(1,1) NOT NULL,
+	[Nombre] [nchar](40) NOT NULL,
+	[TipoUsuario] [nchar] (40) NOT NULL
+ CONSTRAINT [PK_Usuarios] PRIMARY KEY CLUSTERED 
+(
+	[Id] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+
+insert into Usuarios values ( 'Samuel', 'Administrador')
+
+select * from Usuarios
+
+CREATE TABLE [dbo].[Empleados](
+	[Id] [int] IDENTITY(1,1) NOT NULL,
+	[Nombre] [nchar](40) NOT NULL,
+	[Cargo] [nchar] (40) NOT NULL,
+	[Salario] [int] NOT NULL
+ CONSTRAINT [PK_Empleados] PRIMARY KEY CLUSTERED 
+(
+	[Id] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+
+insert into Empleados values ( 'El pepe', 'Cajero', 1000000)
+
+select * from Empleados
